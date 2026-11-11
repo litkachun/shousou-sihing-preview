@@ -1,0 +1,77 @@
+/* Local review v2 — empathetic photographic lead, restrained brand details. */
+.hero-editorial{position:relative;isolation:isolate;background:#f4f0e6}
+.hero-background{position:absolute;inset:0 0 50px;z-index:-3;overflow:hidden}
+.hero-background img{width:100%;height:100%;object-fit:cover;object-position:center 45%}
+.hero-wash{position:absolute;inset:0 0 50px;z-index:-2;background:linear-gradient(90deg,#f7f5ef 0%,#f7f5effa 22%,#f7f5efe8 34%,#f7f5ef99 45%,#f7f5ef12 62%,#f7f5ef00 100%)}
+.hero-editorial .hero-grid{position:relative;min-height:660px;grid-template-columns:1.08fr 1fr;gap:40px;padding-block:65px;align-items:center}
+.hero-editorial .hero-copy{position:relative;z-index:2;padding-block:12px}
+.hero-editorial .eyebrow{font-size:12px;letter-spacing:.16em;color:#715019}
+.hero-editorial h1{font-size:clamp(42px,4.1vw,60px);line-height:1.45;letter-spacing:-.055em}
+.hero-editorial h1>span:after{height:7px;background:#d8b266}
+.hero-editorial .hero-description{font-size:18px;color:#3d5265;margin:27px 0 30px}
+.hero-editorial .hero-role{margin-top:23px;padding-left:13px;border-left:2px solid var(--gold);color:#485b69;font-size:12px}
+.hero-editorial .button-outline{background:#ffffffb8;border-color:#8d9ca7}
+.hero-editorial .hero-bottom{position:relative;background:#f7f5efed;border-color:#d3cbb9;z-index:3}
+.hero-visual{position:relative;align-self:stretch;min-height:530px}
+.scene-tag{position:absolute;display:flex;align-items:center;gap:8px;padding:10px 14px;background:#fffdf5ed;color:var(--navy);font-size:11px;border:1px solid #ffffff99;box-shadow:0 5px 18px #092d530a;letter-spacing:.03em;line-height:1.6;border-radius:2px}
+.scene-tag span{width:5px;height:5px;border-radius:50%;background:var(--gold);flex-shrink:0}
+.scene-tag-one{left:20px;top:15px}
+.scene-tag-two{left:15px;bottom:50px}
+.brand-signature{position:absolute;right:0;bottom:35px;background:white;border:1px solid #e4dfd2;width:170px;padding:9px 10px 11px;box-shadow:7px 7px 0 #092d531c;transform:rotate(2deg)}
+.brand-signature img{width:100%;height:auto}
+.brand-signature>span{display:block;color:var(--gold-dark);font-size:9px;letter-spacing:.19em;text-align:center;margin-top:-4px}
+.scene-disclaimer{position:absolute;right:0;bottom:0;font-size:9px;color:#273c4e;background:#f7f5efd9;padding:3px 7px;letter-spacing:.02em}
+.brand strong{letter-spacing:.1em}
+.referral-note{border-top:1px solid #46617b;margin-top:30px;padding-top:22px;max-width:370px}
+.referral-note>span{font-size:12px;font-weight:650;color:#e7bf76}
+.referral-note>p{font-size:13px;line-height:2;color:#c5d1dd;margin-top:12px}
+.contact-teaser{background:var(--navy);padding:48px 0}
+.contact-teaser>.container{display:flex;align-items:center;justify-content:space-between;gap:30px}
+.contact-teaser .eyebrow{color:#dfb564;margin-bottom:8px}
+.contact-teaser h2{color:white;font-size:30px}
+.contact-teaser .button{background:#ead9b6;border-color:#ead9b6;color:var(--navy);min-width:195px}
+.contact-teaser .button:hover{background:#f7f0e3}
+.social-links{display:flex;flex-wrap:wrap;gap:10px 16px;font-size:11px;margin-top:18px}
+.social-links a{border-bottom:1px solid #597084;padding-bottom:3px}
+.social-links a:hover{color:#dfb564}
+.flow-section .section-bottom>.text-link{margin-left:auto}
+.service-entry p{max-width:360px}
+.form-head h3{font-size:24px}
+@media(min-width:1600px){.hero-editorial .hero-grid{min-height:720px}.hero-visual{min-height:590px}.scene-tag-one{top:45px}.brand-signature{width:190px}}
+@media(min-width:701px) and (max-width:1100px){
+ .hero-editorial .hero-grid{min-height:605px;gap:20px;grid-template-columns:1.05fr 1fr;padding-block:48px}
+ .hero-editorial h1{font-size:clamp(37px,4.4vw,46px)}
+ .hero-editorial .hero-description{font-size:16px}
+ .hero-visual{min-height:505px}
+ .brand-signature{width:140px;bottom:45px;right:0}
+ .scene-tag-one{left:3px;top:35px;font-size:9px;padding:8px 10px}
+ .scene-tag-two{left:-4px;bottom:220px;font-size:9px;padding:8px 10px}
+ .hero-wash{background:linear-gradient(90deg,#f7f5ef 0%,#f7f5eff5 30%,#f7f5efb8 44%,#f7f5ef26 68%,transparent)}
+ .hero-background img{object-position:58% center}
+}
+@media(max-width:700px){
+ .hero-editorial .hero-grid{display:block;min-height:0;padding:35px 0 0}
+ .hero-editorial .hero-copy{padding:0 0 28px}
+ .hero-editorial .eyebrow{font-size:10px;letter-spacing:.1em}
+ .hero-editorial h1{font-size:clamp(35px,7.8vw,51px);line-height:1.45}
+ .hero-editorial .hero-description{font-size:15px;line-height:1.85;margin:20px 0 24px;color:#43596c}
+ .hero-editorial .hero-role{font-size:10px;margin-top:19px;color:#4a5c6b}
+ .hero-background{inset:0 0 auto;height:430px;opacity:.2}
+ .hero-background img{object-position:64% center}
+ .hero-wash{inset:0 0 auto;height:440px;background:linear-gradient(90deg,#f7f5effa,#f7f5efc9 60%,#f7f5ef88),linear-gradient(0deg,#f7f5ef,transparent 50%)}
+ .hero-visual{height:300px;min-height:0;margin-inline:-20px;background:#e9e1cf url('assets/empathy-mobile.webp') center 48%/cover no-repeat;border-top:1px solid #e1dbcc}
+ .hero-visual:before{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#092d5330,transparent 35%)}
+ .brand-signature{width:102px;padding:5px 6px 7px;right:19px;bottom:27px;box-shadow:4px 4px 0 #092d5333;transform:rotate(2deg)}
+ .brand-signature>span{font-size:6px;margin-top:-2px;letter-spacing:.11em}
+ .scene-tag-one{left:17px;top:15px;font-size:8px;padding:6px 9px}
+ .scene-tag-two{left:17px;bottom:38px;font-size:8px;padding:6px 9px}
+ .scene-disclaimer{right:17px;bottom:5px;font-size:7px;padding:2px 5px}
+ .hero-editorial .hero-bottom .container{padding-block:13px}
+ .referral-note{margin-top:23px;padding-top:18px;max-width:none}
+ .referral-note>span{font-size:11px}.referral-note>p{font-size:12px;margin-top:10px}
+ .contact-teaser{padding:34px 0}
+ .contact-teaser>.container{align-items:flex-start;flex-direction:column;gap:23px}
+ .contact-teaser h2{font-size:27px}
+ .contact-teaser .button{min-width:0;min-height:49px;font-size:13px}
+ .form-head h3{font-size:22px}
+}
